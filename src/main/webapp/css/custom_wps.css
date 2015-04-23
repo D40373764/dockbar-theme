@@ -1,0 +1,176 @@
+.aui {
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+	
+	body {
+		font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+		font-size: 1.0em;
+	}
+	
+	.portlet-topper {
+		background: none;
+		color: #005695;	
+	
+	
+		.portlet-title {
+			font-size: 1.4em;
+			font-weight: 100;
+		}
+	}
+	.btn {
+		background-image: linear-gradient(to bottom, #d5902a, white);
+		color: #005695;
+	}
+	
+	.btn-primary {
+		background-color: white;
+	}
+	
+	.portlet-content {
+		border-style: dashed;
+    	border-width: 0 0 1px;
+	}
+	
+	.portlet-minimized {
+		border-style: dashed;
+    	border-width: 0 0 1px;
+	}
+}
+
+.portlet-column {
+	border-style: dashed;
+	border-width: 0px 1px 0px 0px;
+	border-color: #eaeaea;
+}
+
+.portlet-title-text {
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;  	
+}
+
+
+.aui .btn:hover, .aui .btn:focus, .aui .btn:active, .aui .btn.active, .aui .btn.disabled, .aui .btn[disabled] {
+    background-color: #d5902a;
+    color: #005695;
+    background-image: none;
+}
+.aui .btn:active, .aui .btn.active {
+}	
+
+.aui label, .aui input, .aui button, .aui select, .aui textarea {
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+/******* CSS Social Networking Portlet Summary ********/
+.social-networking-portlet-summary .summary-container .user-profile-image {
+    max-width: 0px;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.social-networking-portlet-summary  .summary-container h2 {
+	float: right;
+	padding-right: 83%;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+
+.social-networking-portlet-summary .summary-container p {
+	margin-bottom: 0px;
+}
+
+.social-networking-portlet-summary .summary-container .actions-container {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 35px;
+}
+
+.actions-container .user-job-title .title {
+	display: none;
+}
+
+
+/* ---------- Dockbar ---------- */
+.aui .dockbar .navbar-inner, .aui .dockbar-split .dockbar .navbar-inner {
+  width: 100%;
+}
+
+.aui .dockbar .navbar-inner, .aui .dockbar-split .dockbar .navbar-inner,
+.aui .dockbar .navbar-inner .container .nav-account-controls li {
+  background-color: #38393A;
+  background-image: linear-gradient(to bottom,#38393A, #38393A);
+}
+
+.aui .navbar .nav >li > a, 
+.aui .navbar .nav >li > a:hover,
+.aui .navbar .nav >li > a:visited {
+  float: none;
+  padding: 10px 15px10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #38393A;
+}
+
+.aui .navbar .nav >li.sign-out >a {
+  padding-right: 0;
+}
+
+.aui .dockbar .user-avatar img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  width: 2em;
+}
+
+.aui .dockbar .navbar-inner .container .nav-account-controls {
+  border-top: 0px;
+}
+
+.aui .dockbar.navbar .nav > li > a {
+  margin: 0 5px 0 0;
+  padding: 4px 10px;
+}
+
+.dockbar-split .search {
+  z-index: 2;
+  position: fixed;
+  top: 5px;
+  left: 35px; 
+}
+
+@media screen and (min-width: 980px) {
+  .aui .dockbar .navbar-inner, .aui .dockbar-split .dockbar .navbar-inner {
+  position: fixed;
+  z-index: 1; 
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .dockbar-split .search {
+    display: none;
+  } 
+}
+
+/* ---------- rabkcoD ---------- */ 
+
+/* ----------- Custom Navigation CSS ----------------- */
+
+.aui #navigation .navbar-inner{
+background: none repeat scroll 0 0 #00446e;
+}
+
+.aui #navigation .nav > .active > a {
+    background-image: linear-gradient(#d28d28 0px, #d28d28 50%, #9a6921 90%);
+    box-shadow: none;
+}
+
+#navigation li.hover .child-menu{
+background: none repeat scroll 0 0 #00446e        !important;
+}
